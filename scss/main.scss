@@ -1,0 +1,19 @@
+/* Color Theme Swatches in Hex */
+$color-1: #041E40;
+$color-2: #033540;
+$color-3: #045951;
+$color-4: #D9BD8B;
+$color-4: #F2E6D8;
+
+/* Color Theme Swatches in RGBA */
+$color-1-rgba: rgba(4,30,64, 1);
+$color-2-rgba: rgba(3,53,64, 1);
+$color-3-rgba: rgba(4,89,81, 1);
+$color-4-rgba: rgba(217,189,139, 1);
+$color-5-rgba: rgba(242,230,216, 1);
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
