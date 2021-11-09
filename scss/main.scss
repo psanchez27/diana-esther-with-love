@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;1,100&display=swap');
+
 /* Color Theme Swatches in Hex */
 $color-1: #041E40;
 $color-2: #033540;
 $color-3: #045951;
 $color-4: #D9BD8B;
 $color-4: #F2E6D8;
+// $font-logo:
+$font-main: 'Raleway', sans-serif;
 
 /* Color Theme Swatches in RGBA */
 $color-1-rgba: rgba(4,30,64, 1);
@@ -16,4 +20,17 @@ $color-5-rgba: rgba(242,230,216, 1);
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body{
+    font-family: $font-main;
+}
+
+header{
+    background-image: url(../dist/images/main-image.svg);
+    height: 35vh;
+
+    #logo{
+        height: 160px;
+    }
 }

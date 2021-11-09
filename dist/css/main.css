@@ -1,6 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;1,100&display=swap");
 /* Color Theme Swatches in Hex */
 /* Color Theme Swatches in RGBA */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0; }
+
+body {
+  font-family: "Raleway", sans-serif; }
+
+header {
+  background-image: url(../dist/images/main-image.svg);
+  height: 35vh; }
+  header #logo {
+    height: 160px; }
